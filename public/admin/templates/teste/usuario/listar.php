@@ -1,0 +1,4 @@
+<?php
+
+$templateDir = 'teste';
+
