@@ -1,8 +1,13 @@
-<h1>Area Administrativa</h1>
 <?php
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
+require '../../_core/Autoload/ClassLoader.php';
+$cl = new Core\Autoload\classLoader();
+$cl->addNamespace('Core', '../../_core/');
+$cl->addNamespace('App', '../../app/');
+$cl->register();
+
+$p = new Core\Control\PageAdmin();
+$u = new App\Model\user();
+
+var_dump($p);
+var_dump($u);
