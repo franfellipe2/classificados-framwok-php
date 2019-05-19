@@ -10,6 +10,7 @@ and open the template in the editor.
               <title>Area administrativa</title>
        </head>
        <body>
-              <?php $conteudo; ?>
+              <h1>Pagina Admin</h1>
+              <?php var_dump($response); ?>
        </body>
 </html>
